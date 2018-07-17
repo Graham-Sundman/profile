@@ -1,0 +1,115 @@
+body {
+  background-color: #FCEADE;
+  font-family: Montserrat;
+  margin: 0;
+  font-size: 20px
+  line-height: 300px;
+}
+
+h1 {
+  text-decoration: underline;
+  color: #312F2F;
+  font-size: 40px;
+}
+
+.container {
+  margin: 10px auto;
+}
+
+@media (max-width: 1960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  margin: 20px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 20px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 20px auto;
+  }
+}
+
+
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.button {
+  background: #A40E4C;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 10em auto;
+}
+
+.button:hover {
+  background-color: #A40E4C;
+  opacity: 0.7
+}
+
+.align-center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
